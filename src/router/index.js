@@ -30,7 +30,7 @@ const routes = [
 ]   
 
 const router = createRouter({
-  history: createWebHashbHistory(),
+  history: createWebHashHistory(),
   base: import.meta.env.BASE_URL,
   routes
 })
